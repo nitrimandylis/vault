@@ -39,87 +39,89 @@ support/
 
 ```text
 tier1/
-  00 Mindset & System/
-  10 Subjects Overview/
-  20 Tools & Environments/
+Mindset and System/
+Subjects/
+Tools and Environments/
 ```
 
 Key ideas:
 
-- `tier1/00 Mindset & System/` — global mindset + system notes:
-  - `Study OS – Overview`
-  - `IB Mindset & Rules`
+- `tier1/Mindset and System/` — global mindset + system notes:
+- `Study OS Overview`
+- `IB Mindset and Rules`
 
-- `tier1/10 Subjects Overview/` — one overview per subject:
-  - `Subjects – Overview`
-  - `CS HL – Overview`
-  - `Math AA HL – Overview`
-  - `English B HL – Overview`
-  - `Business SL – Overview`
-  - `Modern Greek SL – Overview`
-  - `Global Politics SL – Overview`
-  - `TOK – Overview`
-  - `CAS – Overview`
+- `tier1/Subjects/` — one overview per subject:
+- `Subjects Overview`
+- `CS HL Overview`
+- `Math AA HL Overview`
+- `English B HL Overview`
+- `Business SL Overview`
+- `Modern Greek SL Overview`
+- `Global Politics SL Overview`
+- `TOK Overview`
+- `CAS Overview`
 
-- `tier1/20 Tools & Environments/` — tools + workflows:
-  - `Tools – Stack`
-  - `Coding Environment – MacBook`
-  - `Obsidian – How I Use This Vault`
+- `tier1/Tools and Environments/` — tools + workflows:
+- `Tools Stack`
+- `Coding Environment MacBook`
+- `Work Hub Notion`
 
 ### Tier 2 – Deep Guides & Projects
 
 ```text
 tier2/
-  10 Deep Subject Guides/
-  20 Major Projects/
-  30 Assessments & Exams/
+Subject Guides/
+Projects/
+Assessments/
 ```
 
-- `tier2/10 Deep Subject Guides/` — one main guide per subject:
-  - `CS HL – Core Guide`
-  - `Math AA HL – Problem Solving Guide`
-  - `English B HL – Reading & Writing Playbook`
-  - `Business SL – Case Study Playbook`
-  - `Modern Greek SL – Portfolio Guide`
-  - `Global Politics SL – Concepts & Case Studies`
-  - `TOK – Essay & Exhibition Toolkit`
+- `tier2/Subject Guides/` — one main guide per subject:
+- `CS HL Core Guide`
+- `Math AA HL Problem Solving Guide`
+- `English B HL Reading Writing Playbook`
+- `Business SL Case Study Playbook`
+- `Modern Greek SL Portfolio Guide`
+- `Global Politics SL Concepts Case Studies`
+- `TOK Essay Exhibition Toolkit`
 
-- `tier2/20 Major Projects/` — project hubs:
-  - `CS IA – Project Hub`
-  - `EE – Project Hub` (if applicable)
-  - `CAS – Core Activities Hub`
-  - `Side Project – AI Knowledge Hub`
-  - `Side Project – Assistant (Legacy)`
+- `tier2/Projects/` — project hubs:
+- `CS IA`
+- `EE` (if applicable)
+- `CAS`
+- `AI Knowledge Hub`
+- `Assistant Legacy`
+- `IB Gazette CMS`
+- `Aerospace Drone`
 
-- `tier2/30 Assessments & Exams/` — assessment + exam strategy notes:
-  - `Assessment Calendar & Requirements`
-  - `Exam Strategy – CS HL`
-  - `Exam Strategy – Math AA HL`
-  - `Exam Strategy – All Subjects – Meta`
+- `tier2/Assessments/` — assessment + exam strategy notes:
+- `Assessment Calendar Requirements`
+- `Exam Strategy CS HL`
+- `Exam Strategy Math AA HL`
+- `Exam Strategy All Subjects Meta`
 
 ### Tier 3 – Meta, Future, Reflection
 
 ```text
 tier3/
-  10 University & Career/
-  20 Reflection & Life Design/
-  30 Archives & Resources/
+University and Career/
+Reflection/
+Archives/
 ```
 
-- `tier3/10 University & Career/`:
-  - `UCL IMB – Research Hub`
-  - `UK Applications – Checklist`
-  - `CV & Portfolio – Tech + IB`
+- `tier3/University and Career/`:
+- `UCL IMB Research Hub`
+- `UK Applications Checklist`
+- `CV Portfolio Tech IB`
 
-- `tier3/20 Reflection & Life Design/`:
-  - `Year 1 Reflection – IB`
-  - `Year 2 Reflection – IB`
-  - `Identity & Values`
-  - `Habits & Systems`
+- `tier3/Reflection/`:
+- `Year 1 Reflection IB`
+- `Year 2 Reflection IB`
+- `Identity and Values`
+- `Habits and Systems`
 
-- `tier3/30 Archives & Resources/`:
-  - `Reading List – Books & Articles`
-  - `Course Vault Imports`
+- `tier3/Archives/`:
+- `Reading List Books Articles`
+- `Course Vault Imports`
 
 ### Support Folder
 
@@ -136,17 +138,17 @@ support/
 
 ## Note Conventions
 
-Notes: plain Markdown. YAML frontmatter optional at top:
+Notes: plain Markdown. YAML frontmatter at top:
 
 ```yaml
-***
-id: <string>              # optional stable ID
-category: <string>        # e.g., "subject-overview", "subject-guide", "project-hub", "reflection"
-subject: <string|null>    # e.g., "CS HL", "Math AA HL"
+---
+id: <string> # optional stable ID
+category: <string> # e.g., "subject-overview", "subject-guide", "project-hub", "reflection"
+subject: <string|null> # e.g., "CS HL", "Math AA HL"
 level: <tier1|tier2|tier3>
 created: 2026-04-15T12:34:56Z
 updated: 2026-04-15T13:45:00Z
-***
+---
 ```
 
 Rules:
@@ -379,7 +381,7 @@ When recurring idea lacks/has weak concept note:
 
 When working on project (e.g., CS IA, EE, AI knowledge hub):
 
-1. Open project hub in `tier2/20 Major Projects/`.
+1. Open project hub in `tier2/Projects/`.
 2. Keep:
    - Overview current.
    - Links to subject guides + concepts updated.
