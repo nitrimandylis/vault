@@ -1,0 +1,17 @@
+{
+  "name": "notion-obsidian-sync",
+  "version": "1.0.0",
+  "description": "Sync Notion Work Hub databases to an Obsidian vault",
+  "main": "sync.js",
+  "type": "module",
+  "scripts": {
+    "sync": "node sync.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

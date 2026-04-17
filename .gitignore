@@ -4,3 +4,17 @@
 .DS_Store
 graph.py
 config.yml
+
+# Notion sync
+node_modules/
+.env
+
+# Generated vault output (category folders and index are written by sync.js)
+assignments/
+side-quests/
+coding-projects/
+cas-activities/
+ee-progress/
+modern-greek/
+backlog/
+index.md
